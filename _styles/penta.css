@@ -1,0 +1,42 @@
+.penta-header {
+  color: #fff;
+  background-color: #31215e;
+  padding: 0 15px;
+  height: 60px;
+}
+
+.penta-header .logo {
+  line-height: 60px;
+  font-size: 22px;
+}
+
+.book-summary {
+  top: 60px;
+  bottom: 52px;
+}
+
+.book-body {
+  top: 60px;
+  bottom: 52px;
+}
+
+.penta-footer {
+  position: absolute;
+  left: 0;
+  right: 0;
+  height: 52px;
+  line-height: 52px;
+  bottom: 0;
+  padding: 0 15px;
+  font-size: 12px;
+  color: #666;
+  border-top: 1px solid #eee;
+}
+
+.penta-footer .footer-left {
+  float: left;
+}
+
+.penta-footer .footer-right {
+  float: right;
+}

@@ -1,0 +1,66 @@
+{
+    "title": "penta book",
+    "language": "en",
+    "styles": {
+        "website": "_styles/penta.css"
+    },
+
+    "links": {
+        "sidebar": {
+        }
+    },
+    "plugins": [
+        "-highlight",
+        "prism-ext",
+        "multipart",
+        "splitter",
+        "header",
+        "-footer",
+        "toggle-chapters",
+        "expandable-chapters-interactive",
+        "-anchor-navigation-ex",
+        "search-pro",
+        "-sharing", 
+        "-search", 
+        "-lunr",
+        "katex",
+        "-fontsettings",
+        "sectionx",
+        "hide-element"
+    ],
+    "pluginsConfig": {
+        "hide-element": {
+            "elements": [".gitbook-link"]
+        },
+        "layout": {
+          "headerPath" : "_layouts/header.html",
+          "footerPath" : "_layouts/footer.html"
+         
+        },
+        "anchor-navigation-ex": {
+                "associatedWithSummary":false,
+                "showLevel":true,
+                "multipleH1": true,
+                "mode": "float",
+                "pageTop": {
+                    "showLevelIcon": true,
+                    "level1Icon": "fa fa-hand-o-right",
+                    "level2Icon": "fa fa-hand-o-right",
+                    "level3Icon": "fa fa-hand-o-right"
+                }
+         },
+
+        "fontsettings": {
+            "theme": "white",
+            "family": "serif",
+            "size": 2
+        },
+        
+        "prism": {
+             "codeBlockExtSyntax": true,
+             "plugins": ["line-numbers"],
+             "cssClasses": "line-numbers",
+             "css": ["prismjs/themes/prism-tomorrow.css"]
+         }
+    }
+}
