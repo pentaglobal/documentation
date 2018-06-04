@@ -27,7 +27,7 @@
 ## build
 
 ## attachments
-* Introduction to Penta PSG[assets/pdf/Penta_PSG.pdf]
+* [Introduction to Penta PSG](assets/pdf/Penta_PSG.pdf)
 
 
 ## Feedback
