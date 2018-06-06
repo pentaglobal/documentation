@@ -16,8 +16,8 @@
         "splitter",
         "header",
         "-footer",
-        "toggle-chapters",
-        "expandable-chapters-interactive",
+        "-toggle-chapters",
+        "-expandable-chapters-interactive",
         "-anchor-navigation-ex",
         "search-pro",
         "-sharing", 
@@ -33,8 +33,8 @@
             "elements": [".gitbook-link"]
         },
         "layout": {
-          "headerPath" : "_layouts/header.html",
-          "footerPath" : "_layouts/footer.html"
+          "headerPath" : "../_layouts/header.html",
+          "footerPath" : "../_layouts/footer.html"
          
         },
         "anchor-navigation-ex": {
